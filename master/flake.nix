@@ -11,6 +11,7 @@
   inputs.src-hpack-master.ref   = "refs/heads/master";
   inputs.src-hpack-master.owner = "nitely";
   inputs.src-hpack-master.repo  = "nim-hpack";
+  inputs.src-hpack-master.dir   = "";
   inputs.src-hpack-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
